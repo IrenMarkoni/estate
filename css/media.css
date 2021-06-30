@@ -1,0 +1,257 @@
+@media screen and (max-width: 1400px) {
+    .header {
+        height: 110vh;
+    }
+    .nav-item:not(:last-child) {
+        margin-right: 20px;
+    }
+    .layer_2 {
+        left: 3% !important;
+    }
+    .layer_3 {
+        left: 50% !important;
+        top: 5% !important;
+    }
+    .address_card_hidden {
+        padding: 15px 10px 10px 15px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        width: 70%;
+    }
+    .label_logo {
+        width: 40%;
+    }
+    .label p {
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .label {
+        height: 150px;
+      }
+    .phone_link {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .nav-item:not(:last-child) {
+        margin-right: 5px;
+    }
+    .nav-item:last-child {
+        margin-left: 70px;
+    }  
+    .right_list_item:nth-child(6) {
+        margin-left: 20px;
+    }
+    
+    .left_list_item, .right_list_item {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .gallery_wrapper {
+        grid-template-columns: 1fr 1fr;
+      }
+}
+@media screen and (max-width: 992px) {
+    .form_2 {
+        width: 100%;
+        padding: 20px;
+        z-index: 99999999999999;
+    }
+    .benefits {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .navbar {
+        margin-left: 0;
+    }
+    .label_wrapper {
+        display: none !important;
+    }
+    .header_man {
+        display: none;
+    }
+    form {
+        margin-left: 0;
+    }
+    form input, .send_order {
+        width: 100%;
+    }
+    .check_list_img {
+        display: none;
+    }
+    .check_list_title {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .check_list_text {
+        width: 100%;
+    }
+    .check_list {
+        padding-left: 0;
+        padding-bottom: 50px;
+        height: auto;
+    }
+    .benefits {
+        background-color: rgba(25, 26, 27, 1);
+    }
+    .benefits_box {
+        display: none;
+    }
+    .benefits_hidden {
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header {
+        height: 600px !important;
+    }
+    .audio {
+        position: relative;
+        margin-top: 80px;
+    }
+    .header {
+        height: 70vh;
+    }
+    .nav-item:not(:last-child) {
+        margin-right: 0;
+    }
+    .order {
+        flex-direction: row-reverse;
+    }
+    .navbar-collapse {
+        text-align: right;
+        position: absolute;
+        top: 80%;
+        width: 100%;
+        background-color: #000;
+        padding: 0 10px 10px 0;
+        /* border: 1px solid #DDC472; */
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgb(221 196 114 / 40%);
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+        width: 100%;
+    }
+    .header_description {
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 22px;
+        margin-bottom: 45px;
+        width: 100%;
+    }
+    .believe h2 {
+        margin: 0;
+        width: 100%;
+    }
+    .address_card {
+        height: 400px;
+    }
+    .gallery_wrapper {
+        grid-template-columns: 1fr;
+      }
+}
+@media screen and (max-width: 576px) {
+    .header {
+        height: 550px !important;
+    }
+    .phone_link {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .feedbacks_item {
+        padding: 10px;
+        margin: 10px;
+    }
+    .slick-prev, .slick-next {
+        display: none !important;
+    }
+}
+ 
+@media screen and (max-width: 480px) {
+    .believe_card {
+        padding: 10px 20px;
+    }
+    .audio_name {
+        font-size: 16px;
+    }
+    .audio_description {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    h1 {
+        font-size: 26px;
+        line-height: 36px;
+        margin-top: 20px;
+    }
+    h1 br {
+        display: none;
+    }
+    .header_description {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 18px;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0;
+    }
+    .benefits {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .inner_title {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .hidden_list_item {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .about {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .about_description {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .problems, .believe, .work_steps, .feedbacks {
+        padding-top: 30px;
+    }
+    .check_list {
+        margin: 15px 5px 10px 5px;
+    }
+    .check_list_title {
+        font-size: 26px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .address_card {
+        height: 450px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .address_card {
+        height: 520px;
+    }
+     
+}
+@media screen and (max-width: 320px) {
+    .address_card {
+        height: 550px;
+    }
+    .card_hidden_text, .card_hidden_text_paragraph {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
