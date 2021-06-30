@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Недвижимость</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+        integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="js/arcticmodal/jquery.arcticmodal-0.3.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <header class="header">
+        <div class="header_content">
+            <div class="container">
+                <div class="row align-items-start order">
+                    <div class="col-lg-3">
+                        <div class="label_wrapper d-flex align-items-start">
+                            <div class="label">
+                                <img src="img/label_logo.svg" alt="" class="label_logo d-block">
+                                <p>Вебинар<br>
+                                    "Как оценить реальную 
+                                    стоимость объекта"</p>
+                            </div>
+                            <div class="label">
+                                <img src="img/label_logo.svg" alt="" class="label_logo d-block">
+                                <p>Специалист по недвижимости брокер</p>
+                            </div>
+                            <div class="label">
+                                <img src="img/label_logo.svg" alt="" class="label_logo d-block">
+                                <p>Специалист по недвижимости брокер</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-12">
+                        <nav class="navbar navbar-expand-md d-flex justify-content-end">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                              <div class="navbar-toggler-icon"></div>
+                              <div class="navbar-toggler-icon"></div>
+                              <div class="navbar-toggler-icon"></div>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                              <ul class="navbar-nav">
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#about">Обо мне</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#benefits">Преимущества</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#work_steps">Условия работы</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#feedbacks">Отзывы</a>
+                                </li> 
+                                <li class="nav-item d-md-flex align-items-md-center">
+                                    <a href="tel:+79196724866" class="phone_link">+7 919 672 48 66</a>
+                                </li> 
+                              </ul>
+                            </div> 
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-9 col-12">
+                        <h1>Продам вашу недвижимость <br>за 3 недели по МАКСИМАЛЬНОЙ<br> рыночной стоимости</h1>
+                        <p class="header_description">Расскажите мне о стоящих перед вами <br>жилищных задачах и получите ответы на все ваши вопросы</p>
+                        <a href="#" class="order_call  hidden_form_button">Заказать звонок</a> 
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <div class="audio d-flex align-items-center">
+                            <button class="music_start"><img src="img/microphone.svg" alt="" class="microphone"></button>
+                                <audio class="music">
+                                    <source src="audio/sound.mp3" controls="" autobuffer="" />
+                                </audio>
+                            <div class="audio_text">
+                                <p class="audio_name">Христанов Александр</p>
+                                <p class="audio_description">Аудио-обращение к собственникам от <br>ведущего специалиста по недвижимости</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <h2>Самое важное обо мне</h2>
+                    <p class="about_description">
+                        За 10 лет в недвижимости я познал все тонкости при продаже в разных ценовых категориях. Это подтверждает более 700 успешно совершенных сделок купли-продажи. Вы можете быть спокойный в высоком уровне моих компетенций, так как я являюсь сертифицированным специалистом и партнером крупнейших банков РФ.
+Цель, которую я преследовал, снабжая Вас этими знаниями - понимание происходящего при покупке, продаже, обмене Вашей квартиры, представление о возможных сложностях при проведении сделки и осознание того, нужен ли вам помощник при решении квартирного вопроса.
+                    </p>
+                </div>
+                <div class="col-lg-4 offset-lg-1">
+                    <div class="number_item">
+                        <span class="number counter-number">185</span>
+                        <p class="number_title">Успешных сделок</p>
+                    </div>
+                    <div class="number_item">
+                        <span class="number counter-number">206</span>
+                        <p class="number_title">Проданных квартир</p>
+                    </div>
+                    <div class="number_item">
+                        <div class="d-flex justify-content-center">
+                            <span class="number">> </span>
+                        <span class="number counter-number"> 2000</span>
+                        </div>
+                        <p class="number_title">проданных м2</p>
+                    </div>
+                    <div class="number_item">
+                       <div class="d-flex justify-content-center">
+                        <span class="number counter-number">38</span>
+                        <span class="number"> млн</span>
+                       </div>
+                        <p class="number_title">сэкономленных рублей</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="benefits" id="benefits">
+        <div class="benefits_box">
+            <h2 class="text-center">Почему эффективнее продать недвижимость через риелтора?</h2>
+            <p class="inner_title text-center">Продажа собственником</p>
+            <div class="images" id="scene">
+                <div data-depth="0.3" class="layer layer_1 d-flex justify-content-center">
+                    <img src="img/iceberg_group.svg" alt="Изображение переписки" class="iceberg">
+                    <div class="blue_line"></div>
+                </div>
+                <div data-depth="0.5" class="layer layer_2">
+                    <ul class="left_list">
+                                <li class="left_list_item">Показал недвижимость</li>
+                                <li class="left_list_item">Выставил объявление</li>
+                                <li class="left_list_item d-flex align-items-center">
+                                    <div>
+                                        Составить сравнительный анализ <br>и определить рыночную стоимость
+                                    </div>
+                                </li>
+                                <li class="left_list_item">Провести предпродажную подготовку</li>
+                                <li class="left_list_item">Очистить сайты от дублеров</li>
+                                <li class="left_list_item">Организовать профсъемку</li>
+                                <li class="left_list_item">Составить качественный продающий текст</li>
+                    </ul>
+                </div>
+                <div data-depth="0.6" class="layer layer_3">
+                    <ul class="right_list">
+                        <li class="right_list_item">Оформил договор купли – продажи</li>
+                        <li class="right_list_item">Получил деньги</li>
+                         <li class="right_list_item d-flex align-items-center">
+                            <div>
+                                Грамотная организация и проведения показов
+                            </div>
+                        </li>
+                        <li class="right_list_item">Рассылка всем агентам</li>
+                        <li class="right_list_item">Баннер на объекте</li>
+                        <li class="right_list_item d-flex align-items-center">
+                            <div>
+                                 Рекламные объявления на всех сайтах <br>с премиальным продвижением на <br>первые строки
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="benefits_hidden">
+            <div class="container">
+                <div class="row box">
+                    <div class="col-12">
+                        <h2 class="text-center">Почему эффективнее продать недвижимость через риелтора?</h2>
+                        <p class="inner_title">Продажа собственником</p>
+                        <ul class="hidden_list">
+                            <li class="hidden_list_item">— Показал недвижимость</li>
+                            <li class="hidden_list_item">— Оформил договор купли – продажи</li>
+                            <li class="hidden_list_item">— Выставил объявление</li>
+                            <li class="hidden_list_item">— Получил деньги</li>
+                        </ul>
+                        <span class="vs text-center">vs</span>
+                        <p class="inner_title">Продажа брокером</p>
+                        <ul class="hidden_list">
+                            <li class="hidden_list_item">— Составить сравнительный анализ и определить рыночную стоимость</li>
+                            <li class="hidden_list_item">— Грамотная организация и проведения показов</li>
+                            <li class="hidden_list_item">— Провести предпродажную подготовку</li>
+                            <li class="hidden_list_item">— Рассылка всем агентам </li>
+                            <li class="hidden_list_item">— Очистить сайты от дублеров</li>
+                            <li class="hidden_list_item">— Баннер на объекте</li>
+                            <li class="hidden_list_item">— Организовать профсъемку</li>
+                            <li class="hidden_list_item">— Составить качественный продающий текст</li>
+                            <li class="hidden_list_item">— Рекламные объявления на всех сайтах с премиальным продвижением на первые строки</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </section>
+    <section class="problems">
+        <div class="container">
+            <h2 class="text-center">Все проблемы я беру на себя</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="address_card address_card_1 d-flex align-items-center justify-content-center">
+                        <h2>Пионерская, 29</h2>
+                        <div class="address_card_hidden">
+                            <h4>Пионерская, 29</h4> 
+                            <p class="card_hidden_text"><strong>Проблема: </strong>Продажа квартиры после предыдущего агентства, которые не смогли выполнить свои обязательства в течении 3 месяцев работы. В результате чего появились Сильно сжатые сроки продажи.</p>
+                            <p class="card_hidden_text"><strong>Задача: </strong>Продать недвижимость в кратчайшие сроки, чтобы успеть приобрести квартиру в Москве в новостройке на начале старта продаж без привлечения дополнительных финансов.</p>
+                            <p class="card_hidden_text_paragraph"><strong>Итог: </strong>Подготовили пакет документов на продажу на старте сотрудничества. Была проведена предпродажная подготовка, утвержден будущий маркетинговый план, который обеспечил продажу Квартиры за 3 недели. Собственник успел получить деньги за продажу на 2 дня раньше, чем начался старт продаж в новостройке в Москве. Задача была выполнена в полном объеме.</p>
+                            <a data-fancybox="" data-src="#gallery_1" href="javascript:;" class="gallery_btn">
+                                СМОТРЕТЬ ФОТО КВАРТИРЫ&#8195;<i class="fas fa-long-arrow-alt-right"></i></i>
+                            </a>
+                            <div class="gallery" id="gallery_1">
+                                <div class="gallery_wrapper d-grid">
+                                    <div>
+                                        <img src="gallery/flat_1/foto_5.jpg" alt="" class="foto">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_1/foto_2.jpg" alt="" class="foto">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_1/foto_3.jpg" alt="" class="foto">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_1/foto_4.jpg" alt="" class="foto">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_1/foto_1.jpg" alt="" class="foto">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_1/foto_6.jpg" alt="" class="foto">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_1/foto_7.jpg" alt="" class="foto">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_1/foto_8.jpg" alt="" class="foto">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="address_card address_card_2 d-flex align-items-center justify-content-center">
+                        <h2>Академика Крылова, 5</h2>
+                        <div class="address_card_hidden">
+                            <h4>Академика Крылова, 5</h4> 
+                            <p class="card_hidden_text"><strong>Проблема: </strong>Супруг, который должен дать нотариальное согласие на продажу находится в другом регионе.</p>
+                            <p class="card_hidden_text"><strong>Задача: </strong>Продать квартиру не задействовав приезд супруга.</p>
+                            <p class="card_hidden_text_paragraph"><strong>Итог: </strong>Связались с нотариус в другом регионе, оформили согласие супруга через нотариуса удаленно. Составили грамотный маркетинговый план, проанализировали предложения конкурентов, выявили преимущества и недостатки объекта, откорректировали стоимость недвижимости до Реальной. Квартира была продана за 1,5 месяца.</p>
+                            <a data-fancybox="" data-src="#gallery_2" href="javascript:;" class="gallery_btn">
+                                СМОТРЕТЬ ФОТО КВАРТИРЫ&#8195;<i class="fas fa-long-arrow-alt-right"></i></i>
+                            </a>
+                            <div class="gallery" id="gallery_2">
+                                <div class="gallery_wrapper d-grid">
+                                    <div>
+                                        <img src="gallery/flat_2/foto_1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_2/foto_2.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_2/foto_3.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_2/foto_4.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_2/foto_5.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_2/foto_6.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_2/foto_7.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_2/foto_8.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="address_card address_card_3 d-flex align-items-center justify-content-center">
+                        <h2>Пионерская, 29</h2>
+                        <div class="address_card_hidden">
+                            <h4>Пионерская, 29</h4> 
+                            <p class="card_hidden_text"><strong>Проблема: </strong> Отсутствие времени у собственника участвовать в процессе продажи.</p>
+                            <p class="card_hidden_text"><strong>Задача: </strong>Продать квартиру по максимально возможной цене</p>
+                            <p class="card_hidden_text_paragraph"><strong>Итог: </strong>Собственник передал ключи. Была проведена предпродажная подготовка. Подготовлен пакет документов к продаже, утвержден маркетинговый план. Все процессы продажи взял на себя.  Покупателю была оказана помощь в получении ипотеки для приобретения жилья. В результате взаимодействия цена была откалибрована исходя из спроса на 100.000 рублей вниз. Квартира была продана за 47 дней.</p>
+                            <a data-fancybox="" data-src="#gallery_3" href="javascript:;" class="gallery_btn">
+                                СМОТРЕТЬ ФОТО КВАРТИРЫ&#8195;<i class="fas fa-long-arrow-alt-right"></i></i>
+                            </a>
+                            <div class="gallery" id="gallery_3">
+                                <div class="gallery_wrapper d-grid">
+                                    <div>
+                                        <img src="gallery/flat_3/foto_1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_3/foto_3.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_3/foto_2.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_3/foto_4.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_3/foto_5.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_3/foto_6.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_3/foto_7.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_3/foto_8.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_3/foto_9.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="address_card address_card_4 d-flex align-items-center justify-content-center">
+                        <h2>Академика Крылова, 5</h2>
+                        <div class="address_card_hidden">
+                            <h4>Пионерская, 29</h4> 
+                            <p class="card_hidden_text"><strong>Проблема: </strong>владелец находится в другой стране</p>
+                            <p class="card_hidden_text"><strong>Задача: </strong>продать квартиру за 3 месяца</p>
+                            <p class="card_hidden_text_paragraph"><strong>Итог: </strong>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure </p>
+                            <a data-fancybox="" data-src="#gallery_4" href="javascript:;" class="gallery_btn">
+                                СМОТРЕТЬ ФОТО КВАРТИРЫ&#8195;<i class="fas fa-long-arrow-alt-right"></i></i>
+                            </a>
+                            <div class="gallery" id="gallery_4">
+                                <div class="gallery_wrapper d-grid">
+                                    <div>
+                                        <img src="gallery/flat_4/foto_1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_4/foto_3.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_4/foto_2.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_4/foto_4.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_4/foto_5.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_4/foto_6.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_4/foto_7.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_4/foto_8.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_4/foto_9.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="address_card address_card_5 d-flex align-items-center justify-content-center">
+                        <h2>Пионерская, 29</h2>
+                        <div class="address_card_hidden">
+                            <h4>Пионерская, 29</h4> 
+                            <p class="card_hidden_text"><strong>Проблема: </strong>владелец находится в другой стране</p>
+                            <p class="card_hidden_text"><strong>Задача: </strong>продать квартиру за 3 месяца</p>
+                            <p class="card_hidden_text_paragraph"><strong>Итог: </strong>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure </p>
+                            <a data-fancybox="" data-src="#gallery_5" href="javascript:;" class="gallery_btn">
+                                СМОТРЕТЬ ФОТО КВАРТИРЫ&#8195;<i class="fas fa-long-arrow-alt-right"></i></i>
+                            </a>
+                            <div class="gallery" id="gallery_5">
+                                <div class="gallery_wrapper d-grid">
+                                    <div>
+                                        <img src="gallery/flat_5/foto_1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_5/foto_3.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_5/foto_2.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_5/foto_4.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_5/foto_5.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_5/foto_6.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_5/foto_7.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_5/foto_8.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_5/foto_9.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="address_card address_card_6 d-flex align-items-center justify-content-center">
+                        <h2>Академика Крылова, 5</h2>
+                        <div class="address_card_hidden">
+                            <h4>Пионерская, 29</h4> 
+                            <p class="card_hidden_text"><strong>Проблема: </strong>владелец находится в другой стране</p>
+                            <p class="card_hidden_text"><strong>Задача: </strong>продать квартиру за 3 месяца</p>
+                            <p class="card_hidden_text_paragraph"><strong>Итог: </strong>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure </p>
+                            <a data-fancybox="" data-src="#gallery_6" href="javascript:;" class="gallery_btn">
+                                СМОТРЕТЬ ФОТО КВАРТИРЫ&#8195;<i class="fas fa-long-arrow-alt-right"></i></i>
+                            </a>
+                            <div class="gallery" id="gallery_6">
+                                <div class="gallery_wrapper d-grid">
+                                    <div>
+                                        <img src="gallery/flat_6/foto_1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_6/foto_3.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_6/foto_2.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_6/foto_4.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_6/foto_5.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_6/foto_6.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_6/foto_7.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_6/foto_8.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img src="gallery/flat_6/foto_9.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="believe">
+        <div class="container">
+            <h2 class="text-center">Почему стоит доверить мне продажу вашей квартиры или дома?</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="believe_card text-center">
+                        <svg width="108" height="120" viewBox="0 0 108 120"  xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d)">
+                            <path d="M63.0671 20H57.7337H56.4004H35.0671H33.7337H28.4004C23.9884 20 20.4004 23.588 20.4004 28V92C20.4004 96.412 23.9884 100 28.4004 100H63.0671C67.4791 100 71.0671 96.412 71.0671 92V84H80.4004C84.0764 84 87.0671 81.0093 87.0671 77.3333V74.6667C87.0671 73.9307 86.4711 73.3333 85.7337 73.3333H79.0671V45.3333C79.0671 41.6573 76.0764 38.6667 72.4004 38.6667H71.0671V28C71.0671 23.588 67.4791 20 63.0671 20ZM52.6457 22.6667C52.4964 23.0853 52.4004 23.5307 52.4004 24C52.4004 24.7347 51.8031 25.3333 51.0671 25.3333H40.4004C39.6644 25.3333 39.0671 24.7347 39.0671 24C39.0671 23.5307 38.9711 23.0853 38.8217 22.6667H52.6457ZM68.4004 92C68.4004 94.9413 66.0084 97.3333 63.0671 97.3333H28.4004C25.4591 97.3333 23.0671 94.9413 23.0671 92V28C23.0671 25.0587 25.4591 22.6667 28.4004 22.6667H33.7337H35.0671C35.8031 22.6667 36.4004 23.2653 36.4004 24C36.4004 26.2053 38.1951 28 40.4004 28H51.0671C53.2724 28 55.0671 26.2053 55.0671 24C55.0671 23.2653 55.6644 22.6667 56.4004 22.6667H57.7337H63.0671C66.0084 22.6667 68.4004 25.0587 68.4004 28V38.6667H45.7337C42.5151 38.6667 39.8217 40.9613 39.2017 44H32.4004C31.6631 44 31.0671 44.5973 31.0671 45.3333V69.3333C31.0671 70.0693 31.6631 70.6667 32.4004 70.6667H47.0671V68H33.7337V46.6667H47.0671V44H41.9791C42.5311 42.452 43.9977 41.3333 45.7337 41.3333C47.9391 41.3333 49.7337 43.128 49.7337 45.3333V78.6667C49.7337 81.608 52.1257 84 55.0671 84H68.4004V92ZM84.4004 77.3333C84.4004 79.5387 82.6057 81.3333 80.4004 81.3333H59.6844C60.1404 80.548 60.4004 79.6373 60.4004 78.6667V76H84.4004V77.3333ZM76.4004 45.3333V73.3333H59.0671C58.3297 73.3333 57.7337 73.9307 57.7337 74.6667V78.6667C57.7337 80.1373 56.5377 81.3333 55.0671 81.3333C53.5964 81.3333 52.4004 80.1373 52.4004 78.6667V45.3333C52.4004 43.8267 51.8791 42.4507 51.0324 41.3333H72.4004C74.6057 41.3333 76.4004 43.128 76.4004 45.3333Z"/>
+                            <path d="M28.3991 90.6666V29.3333C28.3991 28.5986 28.9964 27.9999 29.7324 27.9999H32.3991V25.3333H29.7324C27.5271 25.3333 25.7324 27.1279 25.7324 29.3333V90.6666C25.7324 92.8719 27.5271 94.6666 29.7324 94.6666H60.3991V91.9999H29.7324C28.9964 91.9999 28.3991 91.4012 28.3991 90.6666Z" />
+                            <path d="M32.4004 73.3333H47.0671V75.9999H32.4004V73.3333Z"/>
+                            <path d="M32.4004 78.6667H47.0671V81.3334H32.4004V78.6667Z"/>
+                            <path d="M32.4004 84H47.0671V86.6667H32.4004V84Z"/>
+                            <path d="M32.4004 32H64.4004V34.6667H32.4004V32Z"/>
+                            <path d="M61.7337 62.6667H63.0671V64.0001H65.7337V62.6667H67.0671C67.8044 62.6667 68.4004 62.0694 68.4004 61.3334V57.3334C68.4004 56.5974 67.8044 56.0001 67.0671 56.0001H63.0671V54.6667H68.4004V53.3334C68.4004 52.5974 67.8044 52.0001 67.0671 52.0001H65.7337V50.6667H63.0671V52.0001H61.7337C60.9964 52.0001 60.4004 52.5974 60.4004 53.3334V57.3334C60.4004 58.0694 60.9964 58.6667 61.7337 58.6667H65.7337V60.0001H60.4004V61.3334C60.4004 62.0694 60.9964 62.6667 61.7337 62.6667Z"/>
+                            <path d="M64.3991 68.0001C70.2804 68.0001 75.0658 63.2147 75.0658 57.3334C75.0658 51.4521 70.2804 46.6667 64.3991 46.6667C58.5178 46.6667 53.7324 51.4521 53.7324 57.3334C53.7324 63.2147 58.5178 68.0001 64.3991 68.0001ZM64.3991 49.3334C68.8111 49.3334 72.3991 52.9214 72.3991 57.3334C72.3991 61.7454 68.8111 65.3334 64.3991 65.3334C59.9871 65.3334 56.3991 61.7454 56.3991 57.3334C56.3991 52.9214 59.9871 49.3334 64.3991 49.3334Z"/>
+                            </g>
+                            <defs>
+                            <filter id="filter0_d" x="0.400391" y="0" width="106.667" height="120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                            <feOffset/>
+                            <feGaussianBlur stdDeviation="10"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0.756863 0 0 0 0 0.615686 0 0 0 0 0.454902 0 0 0 0.4 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                            </filter>
+                            </defs>
+                        </svg>
+                        <h5>Оплата только за результат</h5>
+                        <p class="believe_text">Если квартира не будет продана, вы ничего не платите</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="believe_card text-center">
+                        <svg width="120" height="120" viewBox="0 0 120 120"  xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d)">
+                            <path d="M89.5515 56.952C88.4502 56.0281 86.8729 55.9667 85.7089 56.8054L84.4036 57.7467C84.1649 57.1667 83.7503 56.664 83.1956 56.3094C82.1823 55.6627 80.9143 55.6481 79.8837 56.2787C79.345 56.6094 78.9237 57.0867 78.7171 57.5587L75.7531 62.8692C75.3571 62.5813 74.8345 62.5146 74.3811 62.7399L67.108 66.3678L55.7322 51.2002C55.5695 50.9828 55.3442 50.8202 55.0882 50.7348L49.943 49.0202C51.2043 48.6042 52.3123 47.7869 53.0696 46.6509C54.0962 45.1163 54.3589 43.1537 53.7736 41.4004L53.4082 40.3017C53.2936 39.9564 53.2349 39.5991 53.2349 39.2377V29.2833C56.3828 26.222 57.1735 21.8128 57.2162 21.5528C57.2815 21.1661 57.1722 20.7714 56.9175 20.4715C56.6642 20.1728 56.2922 20.0008 55.9002 20.0008H41.2485C40.1312 19.9928 30.1861 19.9795 26.6101 23.5167C25.7101 24.4074 25.2342 25.4967 25.2342 26.6673C25.2342 34.8152 29.1514 45.3576 29.3181 45.8029C29.5141 46.3229 30.0127 46.6669 30.5674 46.6669C30.582 46.6669 30.5967 46.6669 30.6114 46.6656C30.986 46.6536 31.318 46.4749 31.5554 46.2069L33.3513 48.6015L25.0062 50.7082C24.4702 50.8442 24.0728 51.2975 24.0088 51.8481L20.0089 86.5141C19.9649 86.8914 20.0849 87.2687 20.3383 87.5527C20.5903 87.8367 20.9529 87.9994 21.3329 87.9994V91.9993C21.3329 94.2046 23.1275 95.9992 25.3328 95.9992H29.3327V99.9991H31.9993V90.666H35.9006C36.6379 90.666 37.2339 90.07 37.2339 89.3327V82.6662H45.3324V89.3327C45.3324 90.07 45.9284 90.666 46.6657 90.666H49.3323V99.9991H51.9989V90.666H53.2336C53.9709 90.666 54.5669 90.07 54.5669 89.3327V68.5331L64.3934 78.2796C64.7693 78.6556 65.3373 78.7676 65.8293 78.5703L81.5397 72.2624C81.9383 72.1024 82.2343 71.7597 82.337 71.3437C82.385 71.1464 82.385 70.9451 82.3437 70.7518C84.4116 69.7184 87.1462 67.9665 88.4129 66.4652L91.5581 62.7412C92.0968 62.1026 92.3568 61.2946 92.2861 60.4626C92.2154 59.6306 91.8261 58.876 91.1888 58.3373L89.5515 56.952ZM50.8763 41.1444L51.243 42.2443C51.5683 43.2203 51.4216 44.315 50.8496 45.1696C50.227 46.1083 49.1817 46.6669 48.055 46.6669H35.2339L32.6087 43.167L35.5633 33.3179C37.6926 33.2659 42.8898 33.0285 48.1617 31.9739C49.047 31.7966 49.8417 31.5152 50.567 31.1659V39.2377C50.567 39.8857 50.671 40.527 50.8763 41.1444ZM42.4871 59.8453L41.2338 62.3519L39.9805 59.8453L41.2338 54.8307L42.4871 59.8453ZM27.9008 26.6673C27.9008 26.3767 27.9621 25.9313 28.4848 25.414C30.778 23.1461 38.0246 22.6661 40.9725 22.6661C41.0618 22.6661 41.1512 22.6661 41.2325 22.6674H54.1629C53.4389 24.8274 51.6309 28.562 47.6364 29.3606C41.1872 30.6499 34.6326 30.6672 34.5673 30.6672C33.9793 30.6672 33.4593 31.0539 33.29 31.6179L30.5047 40.903C29.3661 37.1431 27.9008 31.3846 27.9008 26.6673ZM29.3327 93.3326H25.3328C24.5968 93.3326 23.9995 92.7353 23.9995 91.9993V87.9994H27.9994V89.3327C27.9994 90.07 28.5954 90.666 29.3327 90.666V93.3326ZM34.5673 87.9994H30.666V66.6665H27.9994V85.3328H22.8289L26.5515 53.0681L34.5673 51.0442V87.9994ZM37.2339 79.9996V49.3335H39.8605L37.2752 59.6773C37.1966 59.9853 37.2339 60.312 37.3752 60.596L40.0419 65.9292C40.2672 66.3812 40.7285 66.6665 41.2338 66.6665C41.7392 66.6665 42.2005 66.3812 42.4271 65.9292L45.0937 60.596C45.2351 60.3106 45.2724 59.9853 45.1937 59.6773L42.6071 49.3335H45.3324V79.9996H37.2339ZM65.648 75.769L54.1722 64.3866C53.7896 64.0079 53.2162 63.8972 52.7203 64.1026C52.2243 64.3092 51.9003 64.7959 51.9003 65.3332V87.9994H47.999V51.1842L53.8496 53.1334L64.6813 67.5771L64.5427 67.6478L65.7333 70.0331L74.6411 65.5905L78.8237 70.4798L65.648 75.769ZM89.5235 61.0186L86.3782 64.7439C85.3729 65.9332 82.6276 67.7011 80.713 68.5878L77.6277 64.9812L81.097 58.756C81.1343 58.672 81.197 58.6 81.2757 58.552C81.489 58.42 81.6703 58.5 81.761 58.5573C81.8503 58.6147 81.997 58.7493 81.969 58.9973L81.8397 60.1333C81.7797 60.6573 82.0343 61.1666 82.4903 61.4346C82.9463 61.7026 83.517 61.6733 83.9436 61.3653L87.2689 58.9693C87.4382 58.8453 87.6729 58.856 87.8315 58.9907L89.4702 60.376C89.5968 60.4813 89.6248 60.616 89.6302 60.6853C89.6368 60.7546 89.6302 60.892 89.5235 61.0186Z"/>
+                            <path d="M39.999 92H42.6656V99.9998H39.999V92Z"/>
+                            <path d="M99.0859 37.4041L91.9981 35.0415V33.3349H93.3314C93.91 33.3349 94.4207 32.9629 94.5993 32.4149C94.778 31.8656 94.582 31.2643 94.1154 30.9243L90.6648 28.415V21.3351C90.6648 20.5978 90.0688 20.0018 89.3315 20.0018H83.9982C83.2609 20.0018 82.6649 20.5978 82.6649 21.3351V22.5951L79.449 20.2565C78.9823 19.9152 78.3477 19.9152 77.881 20.2565L63.2147 30.9229C62.7467 31.2629 62.552 31.8642 62.7307 32.4136C62.9093 32.9629 63.42 33.3349 63.9986 33.3349H65.3319V49.3345H61.332V52.0012H66.6653H90.6648H98.6646C99.4019 52.0012 99.9979 51.4052 99.9979 50.6679V38.6681C99.9979 38.0934 99.6312 37.5855 99.0859 37.4041ZM78.665 22.9831L83.2142 26.291C83.6196 26.587 84.1556 26.6257 84.6035 26.4017C85.0502 26.175 85.3315 25.715 85.3315 25.2137V22.6684H87.9981V29.0923C87.9981 29.519 88.2021 29.919 88.5475 30.1709L89.2315 30.6683H68.0986L78.665 22.9831ZM81.3316 49.3345H75.9984V41.3347H81.3316V49.3345ZM83.9982 49.3345V40.0014C83.9982 39.2641 83.4022 38.6681 82.6649 38.6681H74.6651C73.9278 38.6681 73.3318 39.2641 73.3318 40.0014V49.3345H67.9986V33.3349H89.3315V49.3345H83.9982ZM97.3313 49.3345H91.9981V37.8508L97.3313 39.6294V49.3345Z"/>
+                            </g>
+                            <defs>
+                            <filter id="filter0_d" x="0" y="0" width="119.998" height="120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                            <feOffset/>
+                            <feGaussianBlur stdDeviation="10"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0.866667 0 0 0 0 0.768627 0 0 0 0 0.447059 0 0 0 0.4 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                            </filter>
+                            </defs>
+                        </svg>
+                        <h5>10 лет в недвижимости</h5>
+                        <p class="believe_text">Большой опыт позволяет использовать все инструменты</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="believe_card text-center">
+                        <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d)">
+                            <path d="M52.3818 67.0562L65.713 53.725L67.5984 55.6103L54.2672 68.9415L52.3818 67.0562Z"/>
+                            <path d="M65.333 61.3333C63.1277 61.3333 61.333 63.1279 61.333 65.3333C61.333 67.5386 63.1277 69.3333 65.333 69.3333C67.5383 69.3333 69.333 67.5386 69.333 65.3333C69.333 63.1279 67.5383 61.3333 65.333 61.3333ZM65.333 66.6666C64.597 66.6666 63.9997 66.0693 63.9997 65.3333C63.9997 64.5973 64.597 63.9999 65.333 63.9999C66.069 63.9999 66.6663 64.5973 66.6663 65.3333C66.6663 66.0693 66.069 66.6666 65.333 66.6666Z"/>
+                            <path d="M58.666 57.3333C58.666 55.1279 56.8713 53.3333 54.666 53.3333C52.4607 53.3333 50.666 55.1279 50.666 57.3333C50.666 59.5386 52.4607 61.3333 54.666 61.3333C56.8713 61.3333 58.666 59.5386 58.666 57.3333ZM53.3327 57.3333C53.3327 56.5973 53.93 55.9999 54.666 55.9999C55.402 55.9999 55.9993 56.5973 55.9993 57.3333C55.9993 58.0693 55.402 58.6666 54.666 58.6666C53.93 58.6666 53.3327 58.0693 53.3327 57.3333Z"/>
+                            <path d="M73.3332 39.9998H67.9999C67.2626 39.9998 66.6666 40.5958 66.6666 41.3331V43.6251L60.8332 38.9585C60.3466 38.5705 59.6532 38.5705 59.1666 38.9585L39.1666 54.9585C38.7252 55.3131 38.5546 55.9078 38.7426 56.4411C38.9306 56.9745 39.4332 57.3331 39.9999 57.3331H41.3332V74.6665C41.3332 75.4038 41.9292 75.9998 42.6666 75.9998H77.3332C78.0706 75.9998 78.6666 75.4038 78.6666 74.6665V57.3331H79.9999C80.5666 57.3331 81.0706 56.9745 81.2572 56.4411C81.4439 55.9078 81.2746 55.3118 80.8332 54.9585L74.6666 50.0265V41.3331C74.6666 40.5958 74.0706 39.9998 73.3332 39.9998ZM76.5319 54.9331C76.2092 55.1771 75.9999 55.5638 75.9999 55.9998V73.3331H43.9999V55.9998C43.9999 55.5638 43.7906 55.1771 43.4679 54.9331L59.9999 41.7065L67.1666 47.4411C67.5666 47.7611 68.1172 47.8238 68.5786 47.6011C69.0399 47.3785 69.3332 46.9131 69.3332 46.3998V42.6665H71.9999V50.6665C71.9999 51.0718 72.1839 51.4545 72.4999 51.7078L76.5319 54.9331Z"/>
+                            <path d="M99.441 26.916L90.1077 20.2493C89.8757 20.084 89.605 20 89.333 20H30.6663C29.929 20 29.333 20.596 29.333 21.3333V66.6667H31.9997V22.6667H85.173L79.225 26.916C78.753 27.252 78.553 27.856 78.7303 28.408C78.9077 28.9587 79.4197 29.3333 79.9997 29.3333H82.6663V38.6667C82.6663 39.404 83.2623 40 83.9997 40H94.6663C95.4037 40 95.9997 39.404 95.9997 38.6667V29.3333H98.6663C99.2463 29.3333 99.7583 28.9587 99.9357 28.408C100.113 27.856 99.913 27.2507 99.441 26.916ZM93.333 28V37.3333H85.333V28C85.333 27.3133 84.8143 26.7493 84.1477 26.6747L89.333 22.972L94.5183 26.6747C93.8517 26.7493 93.333 27.3133 93.333 28Z"/>
+                            <path d="M82.666 42.6667H95.9993V45.3334H82.666V42.6667Z"/>
+                            <path d="M82.666 48H95.9993V50.6667H82.666V48Z"/>
+                            <path d="M24 74.6667H37.3333V77.3334H24V74.6667Z"/>
+                            <path d="M24 69.3333H37.3333V71.9999H24V69.3333Z"/>
+                            <path d="M87.9998 97.3332H34.8264L40.7744 93.0839C41.2464 92.7479 41.4464 92.1439 41.2691 91.5919C41.0918 91.0412 40.5798 90.6666 39.9998 90.6666H37.3331V81.3333C37.3331 80.5959 36.7371 79.9999 35.9998 79.9999H25.3331C24.5958 79.9999 23.9998 80.5959 23.9998 81.3333V90.6666H21.3331C20.7531 90.6666 20.2411 91.0412 20.0638 91.5919C19.8864 92.1439 20.0878 92.7479 20.5584 93.0839L29.8918 99.7506C30.1238 99.9172 30.3944 99.9999 30.6664 99.9999H89.3331C90.0704 99.9999 90.6664 99.4039 90.6664 98.6666V53.3333H87.9998V97.3332ZM25.4811 93.3252C26.1478 93.2506 26.6664 92.6866 26.6664 91.9999V82.6666H34.6664V91.9999C34.6664 92.6866 35.1851 93.2506 35.8518 93.3252L30.6664 97.0279L25.4811 93.3252Z"/>
+                            </g>
+                            <defs>
+                            <filter id="filter0_d" x="0" y="0" width="120" height="120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                            <feOffset/>
+                            <feGaussianBlur stdDeviation="10"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0.866667 0 0 0 0 0.768627 0 0 0 0 0.447059 0 0 0 0.4 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                            </filter>
+                            </defs>
+                         </svg> 
+                        <h5>Скорость выхода на сделку</h5>
+                        <p class="believe_text">Средний срок продажи недвижимости 3-4 недели</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-lg-4">
+                    <div class="believe_card text-center">
+                        <svg width="120" height="120" viewBox="0 0 120 120"  xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d)">
+                            <path d="M45.333 56H51.9997V58.6667H45.333V56Z"/>
+                            <path d="M28 56H42.6667V58.6667H28V56Z"/>
+                            <path d="M28 30.6667H30.6667V33.3334H28V30.6667Z"/>
+                            <path d="M28 61.3333H52V63.9999H28V61.3333Z"/>
+                            <path d="M28 66.6667H52V69.3334H28V66.6667Z"/>
+                            <path d="M28 72H52V74.6667H28V72Z"/>
+                            <path d="M45.333 36H51.9997V38.6667H45.333V36Z"/>
+                            <path d="M28 36H42.6667V38.6667H28V36Z"/>
+                            <path d="M45.333 41.3333H51.9997V43.9999H45.333V41.3333Z"/>
+                            <path d="M28 41.3333H42.6667V43.9999H28V41.3333Z"/>
+                            <path d="M28 50.6667H30.6667V53.3334H28V50.6667Z"/>
+                            <path d="M98.5053 47.3813C99.4693 46.416 100 45.1347 100 43.772C100 40.956 97.7093 38.6667 94.896 38.6667C93.532 38.6667 92.2507 39.1973 91.2867 40.1627L89.3333 42.1147V38.6667C89.3333 34.9907 86.3427 32 82.6667 32H68V26.6667C68 22.9907 65.0093 20 61.3333 20H29.3333C25.6573 20 22.6667 22.9907 22.6667 26.6667V89.3333H21.3333C20.596 89.3333 20 89.9307 20 90.6667V93.3333C20 97.0093 22.9907 100 26.6667 100H52C54.9413 100 57.3333 97.608 57.3333 94.6667V88.552L86.6667 59.2187V86.6667H76V89.3333H86.6667V92H68V94.6667H97.3333V97.3333H60V100H98.6667C99.404 100 100 99.4027 100 98.6667V93.3333C100 92.5973 99.404 92 98.6667 92H89.3333V56.552L98.5053 47.3813ZM52 86.6667V83.2187L89.3333 45.8853L92.7813 49.3333L55.448 86.6667H52ZM93.172 42.0467C93.6267 41.5933 94.2533 41.3333 94.896 41.3333C96.24 41.3333 97.3333 42.4267 97.3333 43.772C97.3333 44.4227 97.08 45.036 96.62 45.496L94.6667 47.448L91.2187 44L93.172 42.0467ZM86.6667 38.6667V44.7813L57.3333 74.1147V49.3333H72C75.676 49.3333 78.6667 46.3427 78.6667 42.6667V38.6667C78.6667 36.4613 80.4613 34.6667 82.6667 34.6667C84.872 34.6667 86.6667 36.4613 86.6667 38.6667ZM77.368 34.6667C76.5213 35.784 76 37.16 76 38.6667V42.6667C76 44.872 74.2053 46.6667 72 46.6667C69.7947 46.6667 68 44.872 68 42.6667V34.6667H77.368ZM65.3333 26.6667V42.6667C65.3333 44.1733 65.8547 45.5493 66.7013 46.6667H57.3333V26.6667C57.3333 24.4613 59.128 22.6667 61.3333 22.6667C63.5387 22.6667 65.3333 24.4613 65.3333 26.6667ZM26.6667 97.3333C24.4613 97.3333 22.6667 95.5387 22.6667 93.3333V92H46.6667V94.6667C46.6667 95.6373 46.9267 96.548 47.3827 97.3333H26.6667ZM52 97.3333C50.5293 97.3333 49.3333 96.1373 49.3333 94.6667V90.6667C49.3333 89.9307 48.7373 89.3333 48 89.3333H25.3333V26.6667C25.3333 24.4613 27.128 22.6667 29.3333 22.6667H56.0347C55.188 23.784 54.6667 25.16 54.6667 26.6667V76.7813L49.724 81.724C49.4733 81.9733 49.3333 82.3133 49.3333 82.6667V88C49.3333 88.736 49.9293 89.3333 50.6667 89.3333H54.6667V94.6667C54.6667 96.1373 53.4707 97.3333 52 97.3333Z"/>
+                            </g>
+                            <defs>
+                            <filter id="filter0_d" x="0" y="0" width="120" height="120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                            <feOffset/>
+                            <feGaussianBlur stdDeviation="10"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0.866667 0 0 0 0 0.768627 0 0 0 0 0.447059 0 0 0 0.4 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                            </filter>
+                            </defs>
+                        </svg> 
+                        <h5>Еженедельный отчет о проделанной работе</h5>
+                        <p class="believe_text">Вы можете увидеть эффективность работы</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="believe_card text-center">
+                        <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d)">
+                            <path d="M98.6667 20H21.3333C20.596 20 20 20.5973 20 21.3333V80C20 80.736 20.596 81.3333 21.3333 81.3333H26.6667V78.6667H22.6667V44H62.6667C63.404 44 64 43.4027 64 42.6667V22.6667H68V45.3333C68 45.8747 68.3267 46.3627 68.828 46.568L97.3333 58.2293V66.0093L76.508 57.4347C76.3467 57.3667 76.1747 57.3333 76 57.3333H69.3333C68.596 57.3333 68 57.9307 68 58.6667V69.3333H70.6667V60H75.736L97.3333 68.8933V78.6667H74.6667V81.3333H98.6667C99.404 81.3333 100 80.736 100 80V21.3333C100 20.5973 99.404 20 98.6667 20ZM22.6667 22.6667H38.6667V41.3333H22.6667V22.6667ZM61.3333 41.3333H41.3333V22.6667H61.3333V41.3333ZM70.6667 44.4387V22.6667H97.3333V55.3467L70.6667 44.4387Z"/>
+                            <path d="M65.333 66.6665C65.333 55.6385 56.361 46.6665 45.333 46.6665C34.305 46.6665 25.333 55.6385 25.333 66.6665C25.333 77.6945 34.305 86.6665 45.333 86.6665C49.3437 86.6665 53.0743 85.4692 56.209 83.4278L58.1143 85.3332L53.7237 89.7238L55.609 91.6092L56.6663 90.5518L63.5143 97.4012C65.193 99.0772 67.4197 99.9998 69.7903 99.9998C74.685 99.9998 78.6663 96.0185 78.6663 91.1238C78.6663 88.7518 77.7437 86.5225 76.0663 84.8478L69.2183 77.9998L70.2757 76.9425L68.3903 75.0572L63.9997 79.4478L62.0943 77.5425C64.1357 74.4078 65.333 70.6772 65.333 66.6665ZM27.9997 66.6665C27.9997 57.1092 35.7757 49.3332 45.333 49.3332C54.8903 49.3332 62.6663 57.1092 62.6663 66.6665C62.6663 76.2238 54.8903 83.9998 45.333 83.9998C35.7757 83.9998 27.9997 76.2238 27.9997 66.6665ZM74.181 86.7345C75.3543 87.9065 75.9997 89.4652 75.9997 91.1238C75.9997 94.5478 73.2143 97.3332 69.7903 97.3332C68.133 97.3332 66.573 96.6878 65.3997 95.5145L58.5517 88.6665L67.333 79.8852L74.181 86.7345ZM62.1143 81.3332L59.9997 83.4478L58.361 81.8092C59.117 81.1572 59.8237 80.4505 60.4757 79.6945L62.1143 81.3332Z"/>
+                            <path d="M45.3337 52C37.247 52 30.667 58.58 30.667 66.6667C30.667 74.7533 37.247 81.3333 45.3337 81.3333C53.4203 81.3333 60.0003 74.7533 60.0003 66.6667C60.0003 58.58 53.4203 52 45.3337 52ZM45.3337 78.6667C38.7163 78.6667 33.3337 73.2827 33.3337 66.6667C33.3337 60.0507 38.7163 54.6667 45.3337 54.6667C51.951 54.6667 57.3337 60.0507 57.3337 66.6667C57.3337 73.2827 51.951 78.6667 45.3337 78.6667Z"/>
+                            <path d="M54.1874 64.3091L47.0408 58.3531C46.0514 57.5291 44.6154 57.5291 43.6248 58.3531L36.4794 64.3078C36.0488 64.6678 35.8888 65.2571 36.0794 65.7851C36.2701 66.3131 36.7714 66.6664 37.3328 66.6664H38.6661V70.6664C38.6661 72.1371 39.8621 73.3331 41.3328 73.3331H49.3328C50.8034 73.3331 51.9994 72.1371 51.9994 70.6664V66.6664H53.3328C53.8941 66.6664 54.3954 66.3144 54.5861 65.7864C54.7768 65.2584 54.6181 64.6678 54.1874 64.3091ZM49.3328 66.6664V70.6664H46.6661V66.6664H43.9994V70.6664H41.3328V66.6664C41.3328 65.8211 40.9368 65.0664 40.3221 64.5784L45.3328 60.4024L50.3434 64.5784C49.7288 65.0664 49.3328 65.8211 49.3328 66.6664Z"/>
+                            <path d="M91.5214 30.9759L84.3748 25.0199C83.3854 24.1959 81.9494 24.1959 80.9588 25.0199L73.8134 30.9745C73.3828 31.3345 73.2228 31.9239 73.4134 32.4519C73.6041 32.9799 74.1054 33.3332 74.6668 33.3332H76.0001V37.3332C76.0001 38.8039 77.1961 39.9999 78.6668 39.9999H86.6668C88.1374 39.9999 89.3334 38.8039 89.3334 37.3332V33.3332H90.6668C91.2281 33.3332 91.7294 32.9812 91.9201 32.4532C92.1108 31.9252 91.9521 31.3345 91.5214 30.9759ZM86.6668 33.3332V37.3332H84.0001V33.3332H81.3334V37.3332H78.6668V33.3332C78.6668 32.4879 78.2708 31.7332 77.6561 31.2452L82.6668 27.0692L87.6774 31.2452C87.0628 31.7332 86.6668 32.4879 86.6668 33.3332Z"/>
+                            </g>
+                            <defs>
+                            <filter id="filter0_d" x="0" y="0" width="120" height="120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                            <feOffset/>
+                            <feGaussianBlur stdDeviation="10"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0.866667 0 0 0 0 0.768627 0 0 0 0 0.447059 0 0 0 0.4 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                            </filter>
+                            </defs>
+                        </svg>
+                        <h5>Юридическая чистота</h5>
+                        <p class="believe_text">Полная прозрачность и конфиденциальность</p>
+                    </div> 
+                </div>
+                <div class="col-lg-4">
+                    <div class="believe_card text-center">
+                        <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d)">
+                            <path d="M99.3693 44.2L86.6667 36.316V21.3333C86.6667 20.5973 86.0693 20 85.3333 20H74.6667C73.9307 20 73.3333 20.5973 73.3333 21.3333V28.04L60.7027 20.2C60.272 19.9333 59.728 19.9333 59.296 20.2L20.6293 44.2C20.2387 44.444 20 44.872 20 45.3333V53.3333H20.0093C20.0093 53.4547 20.016 53.5773 20.0507 53.6987C20.2147 54.272 20.7373 54.6667 21.3333 54.6667H25.3333V98.6667C25.3333 99.4027 25.9307 100 26.6667 100H93.3333C94.0693 100 94.6667 99.4027 94.6667 98.6667V84H96C98.2053 84 100 82.2053 100 80V64C100 61.7947 98.2053 60 96 60H94.6667V54.6667H98.6667C99.2627 54.6667 99.7853 54.272 99.9493 53.6987C99.984 53.5773 99.9907 53.4547 99.9907 53.3333H100V45.3333C100 44.872 99.7613 44.444 99.3693 44.2ZM76 22.6667H84V34.66L76 29.6947V22.6667ZM60 22.9027L97.3333 46.0747V50.936L60.7027 28.2C60.272 27.9333 59.728 27.9333 59.296 28.2L22.6667 50.936V46.0747L60 22.9027ZM26.0093 52L60 30.9027L93.9907 52H26.0093ZM49.3333 97.3333H36V72H49.3333V97.3333ZM78.6667 84V97.3333H76V84H78.6667ZM92 97.3333H81.3333V84H92V97.3333ZM97.3333 64V65.3333H93.3333V68H97.3333V70.6667H90.6667V73.3333H97.3333V80C97.3333 80.7347 96.7347 81.3333 96 81.3333H58.6667C57.932 81.3333 57.3333 80.7347 57.3333 80V78.6667H64V76H57.3333V73.3333H68V70.6667H57.3333V64C57.3333 63.2653 57.932 62.6667 58.6667 62.6667H96C96.7347 62.6667 97.3333 63.2653 97.3333 64ZM92 60H58.6667C56.4613 60 54.6667 61.7947 54.6667 64V80C54.6667 82.2053 56.4613 84 58.6667 84H73.3333V97.3333H52V70.6667C52 69.9307 51.4027 69.3333 50.6667 69.3333H34.6667C33.9307 69.3333 33.3333 69.9307 33.3333 70.6667V97.3333H28V54.6667H92V60Z"/>
+                            <path d="M53.333 42.6667C53.333 46.3427 56.3237 49.3333 59.9997 49.3333C63.6757 49.3333 66.6663 46.3427 66.6663 42.6667C66.6663 38.9907 63.6757 36 59.9997 36C56.3237 36 53.333 38.9907 53.333 42.6667ZM63.9997 42.6667C63.9997 44.872 62.205 46.6667 59.9997 46.6667C57.7943 46.6667 55.9997 44.872 55.9997 42.6667C55.9997 40.4613 57.7943 38.6667 59.9997 38.6667C62.205 38.6667 63.9997 40.4613 63.9997 42.6667Z"/>
+                            </g>
+                            <defs>
+                            <filter id="filter0_d" x="0" y="0" width="120" height="120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                            <feOffset/>
+                            <feGaussianBlur stdDeviation="10"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0.866667 0 0 0 0 0.768627 0 0 0 0 0.447059 0 0 0 0.4 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                            </filter>
+                            </defs>
+                        </svg>
+                        <h5>Комфорт и выгода</h5>
+                        <p class="believe_text">Сделка с моим участием всегда пройдет выгодно, безопасно и комфортно для вас</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="check_list_section">
+        <div class="container">
+            <div class="row check_list">
+                <div class="col-lg-6">
+                    <p class="check_list_title">СКАЧАЙТЕ ЧЕК-ЛИСТ ПО ПРОДАЖЕ НЕДВИЖИМОСТИ</p>
+                    <p class="check_list_text">И получите понимание о том, как я работаю</p>
+                    <a href="check_list.pdf" class="download_check_list text-center" download>Скачать чек-лист</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="images2" id="scene2">
+                        <div data-depth="0.3" class="layer layer_new">
+                            <img src="img/check_list.png" alt="чек-лист риелтора" class="check_list_img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work_steps" id="work_steps">
+        <div class="container">
+            <h2 class="text-center">Схема работы со мной</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="steps_item steps_item_1 d-flex align-items-center justify-content-center">
+                        <div class="step_number text-center">1</div>
+                        <p class="inner_title text-center">Оставляете заявку</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="steps_item steps_item_2 d-flex align-items-center justify-content-center">
+                        <div class="step_number text-center">2</div>
+                        <p class="inner_title text-center">Осмотр квартиры и проверка готовности документов к продаже</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="steps_item steps_item_3 d-flex align-items-center justify-content-center">
+                        <div class="step_number text-center">3</div>
+                        <p class="inner_title text-center">Договариваемся о сотрудничестве</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="steps_item steps_item_4 d-flex align-items-center justify-content-center">
+                        <div class="step_number text-center">4</div>
+                        <p class="inner_title text-center">Оплата комиссии агента</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="steps_item steps_item_5 d-flex align-items-center justify-content-center">
+                        <div class="step_number text-center">5</div>
+                        <p class="inner_title text-center">Регистрация сделки и получение денег</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="steps_item steps_item_6 d-flex align-items-center justify-content-center">
+                        <div class="step_number text-center">6</div>
+                        <p class="inner_title text-center">Поиск покупателя</p>
+                    </div>
+                </div>
+            </div>
+            <a class="order_call d-block text-center hidden_form_button">Заказать звонок</a>
+        </div>
+    </section>
+    <section class="feedbacks" id="feedbacks">
+        <div class="container">
+            <h2 class="text-center">Отзывы моих клиентов</h2>
+            <div class="multiple-items">
+                <div class="feedbacks_item">
+                    <img src="img/person_1.png" alt="" class="feedback_photo">
+                    <p class="inner_title">Евгений Тарасов</p>
+                    <p class="feedback_title">Продажа квартиры</p>
+                    <p class="feedback_text">В июле 2019 года мы начали продажу квартиры купленную с помощью средств материнского капитала. Продавали с помощью риэлтора Александра, за что ему огромное спасибо! Если бы не он, сделка длилась бы ещё долго. Александр грамотный специалист, чуткий человек, 24/7 готовый помочь в любом вопросе. Она оперативно решал все юридические вопросы.  Благодаря Александру, мы благополучно продали квартиру. Спасибо вам!</p>
+                </div>
+                <div class="feedbacks_item">
+                    <img src="img/person_2.png" alt="" class="feedback_photo">
+                    <p class="inner_title">Юлия Максимова</p>
+                    <p class="feedback_title">Продажа квартиры</p>
+                    <p class="feedback_text">Начав сотрудничество с агентством, начитался негативных отзывов и, честно признаюсь, был нешуточно напуган. Очень благодарен Александру, который работает по городу Чебоксары за профессиональную и очень доброжелательную помощь в продаже. По моей оценке, он со своей стороны сделал все возможное и даже больше. Продал квартиру довольно быстро и именно за ту цену, которую изначально назначил. Советую клиентам не пугаться того, что пишут об агенствах и агентах в интернете. К сожалению, мы живем в век не только белого пиара.</p>
+                </div>
+                <div class="feedbacks_item">
+                    <img src="img/person_3.png" alt="" class="feedback_photo">
+                    <p class="inner_title">Андрей Иванов</p>
+                    <p class="feedback_title">Продажа квартиры</p>
+                    <p class="feedback_text">Профессионал, очень грамотный и организованный. Быстро нашел клиента для покупки нашей квартиры. Грамотно и профессионально провел сделку, все четко и организованно. Очень рады, что сотрудничали с Александром Сергеевичем. В следующий раз обязательно обратимся именно к нему.</p>
+                </div>
+                <div class="feedbacks_item">
+                    <img src="img/person_3.png" alt="" class="feedback_photo">
+                    <p class="inner_title">Андрей Иванов</p>
+                    <p class="feedback_title">Продажа квартиры</p>
+                    <p class="feedback_text">Добрый день! С продажей квартиры мне помогал Риелтор Христанов Александр. Она профессионал своего дела, спокойный, грамотный, вежливый, ненавязчивый, отзывчивый! Очень приятно работать, когда человек располагает к себе с первого телефонного звонка. На связи 24 часа, оперативно помогает в любом вопросе, очень надежный специалист, которая быстро, с толком выведет вас на сделку! Всем рекомендую Александра!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="consulting">
+        <div class="container">
+            <div class="row consulting_wrapper">
+                <div class="col-lg-6">
+                    <form action="/mail.php" method="POST" class="form" id="form">
+                        <p class="form_title">Закажите звонок</p>
+                        <p class="form_description">Оставьте заявку, и я свяжусь с вами в первую свободную минуту</p>
+                        <input type="text" placeholder="Ваше имя" name="name" required>
+                        <input type="text" placeholder="+ 7" name="phone" class="phone" required>
+                        <input type="submit" value="Отправить заявку" class="send_order" id="send_order">
+                    </form>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <img src="img/consult_photo.png" alt="фото" class="consult_photo">
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="text-center">Христанов Александр</h2>
+                <a href="tel:+79196724866" class="phone_link text-center">+7 919 672 48 66</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-md-flex justify-content-md-between">
+                    <a target="_blank" href="policy.pdf"  class="footer_text">Политика конфиденциальности</a>
+                    <div>Разработано: <a target="_blank" href="https://hi-techmedia.ru/"class="footer_link">Hi-tech Media</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div style="display: none;">
+        <div class="box-modal" id="exampleModal">
+          <div class="box-modal_close arcticmodal-close text-end"><i class="far fa-times-circle"></i></div>
+          <div class="modal-wrapper">
+            <h3 class="text-center">Спасибо за заявку</h3>
+            <p class="text-center">Мы перезвоним вам очень скоро</p>
+          </div> 
+        </div>
+    </div>
+    <div style="display: none;">
+        <div class="box-modal hidden_form" id="hidden_form">
+          <div class="box-modal_close arcticmodal-close text-end"><i class="far fa-times-circle"></i></div>
+          <div class="modal-wrapper">
+            <form action="/mail.php" method="POST" class="form_2 text-center" id="form_2">
+                <p class="form_title">Закажите звонок</p>
+                <p class="form_description">Оставьте заявку, и я свяжусь с вами в первую свободную минуту</p>
+                <input type="text" placeholder="Ваше имя" name="name" required>
+                <input type="text" placeholder="+ 7" id="phone" class="phone" required>
+                <input type="submit" value="Отправить заявку" class="send_order" id="send_order">
+            </form>
+          </div> 
+        </div>
+    </div>
+    <a class="live_button hidden_form_button">Заказать звонок</a>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/arcticmodal/jquery.arcticmodal-0.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/parallax.js"></script>
+<script src="slick/slick.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+    integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://kit.fontawesome.com/47c058e428.js" crossorigin="anonymous"></script>
+</body>
+</html>
