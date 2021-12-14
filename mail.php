@@ -23,7 +23,7 @@ if (isset($_POST['phone'])){
 
 
 
-$result = mail("", "Сообщение из формы сайта Недвижимость", $message); 
+$result = mail("iriska885@yandex.ru", "Сообщение из формы сайта Недвижимость", $message); 
 
 if($result === true){
     echo "Done";
